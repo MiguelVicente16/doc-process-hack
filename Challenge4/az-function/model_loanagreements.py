@@ -16,6 +16,7 @@ def model_loanagreements(loan_agreement):
         'id': str(customer_id),
         'content': result_json
     }
+    print(document)
     return document
 
 def clean_json_data(json_data):
